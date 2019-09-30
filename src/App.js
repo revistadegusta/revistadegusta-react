@@ -17,6 +17,9 @@ function App() {
         <div className="align-self-center text-center p-2">
           <a href="https://www.youtube.com/channel/UCcRxoPEtYdUO5LQmZj7wPow">youtube</a>
         </div>
+        <div className="align-self-center text-center p-2">
+          <a href="mailto:contato@revistadegusta.com?subject=Contato com a revista degusta&body=Olá, gostaria de saber mais sobre a revista. Valeu!">contato@revistadegusta.com</a>
+        </div>
       </div>
     </div>
   );
