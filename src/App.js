@@ -19,16 +19,16 @@ function App() {
             <h1>Revista Degusta</h1>
             <p className="text-muted">Gastronomia e Culinária Regional</p>
             <hr />
-            <a href="" className="btn btn-outline-light mr-3">Baixar o PDF</a>
-            <a href="" className="btn btn-outline-light">Ler online</a>
+            <a href="https://material.revistadegusta.com/baixar-revista-edicao-degusta-inverno-2019" className="btn btn-outline-light mr-3">Baixar o PDF</a>
+            <a href="https://www.yumpu.com/pt/document/view/62761663/revista-degusta-gastronomia-e-culinaria-regional" className="btn btn-outline-light">Ler online</a>
 
           </div>
           <div className="col-sm-3 p-3">
             <div class="shadow-sm p-3 bg-gradient-light rounded">
               <p>siga a gente</p>
               <hr />
-              <p>instagram</p>
-              <p>youtube</p>
+              <p><a href="https://www.instagram.com/revistadegusta/">instagram</a></p>
+              <p><a href="https://www.youtube.com/channel/UCcRxoPEtYdUO5LQmZj7wPow">youtube</a></p>
               <p>facebook</p>
               <p>twitter</p>
             </div>
@@ -36,6 +36,11 @@ function App() {
 
         </div>
         <div className="row no-gutters pt-0 pr-3 pb-3 pl-3">
+          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
+            <div class="shadow-sm p-3 mb-5 bg-gradient-dark rounded">
+              <a href="https://www.yumpu.com/user/revista.degusta">edições anteriores</a>
+            </div>
+          </div>
           <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
             <div class="shadow-sm p-3 mb-3 bg-gradient-dark rounded">
               assine nossa newsletter
@@ -49,11 +54,6 @@ function App() {
           <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
             <div class="shadow-sm p-3 mb-3 bg-gradient-dark rounded">
               entre em contato
-            </div>
-          </div>
-          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
-            <div class="shadow-sm p-3 mb-5 bg-gradient-dark rounded">
-              edições anteriores
             </div>
           </div>
         </div>
