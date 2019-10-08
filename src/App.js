@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import sunset from './images/logo.jpg';
 import cover_winter_2019 from './images/covers/2019-inverno.jpg';
+import cover_carnaval_2019 from './images/covers/2019-tiragosto-carnaval.png';
+import cover_pascoa_2019 from './images/covers/2019-tiragosto-pascoa.png';
+import icon_instagram from './images/icons/instagram.svg';
+import icon_youtube from './images/icons/youtube.svg';
+import icon_facebook from './images/icons/facebook.svg';
 import './App.scss';
 import './styles/_reboot-yumpu.scss';
 
@@ -9,53 +14,88 @@ function App() {
   return (
     <div>
       <div className="container-init d-flex flex-column justify-content-center">
+        <h1>Revista Degusta</h1>
+        <hr />
+        <div class="card-columns">
 
-        <div className="row no-gutters p-3">
-          <div className="col-sm-3 p-3">
-            <img src={cover_winter_2019} alt="capa da primeira edição da revista degusta - inverno de 2019" className="img-fluid" />
-          </div>
-          <div className="col-sm-6 p-3">
-            <h6 className="text-muted">Edição #1 | Inverno de 2019</h6>
-            <h1>Revista Degusta</h1>
-            <p className="text-muted">Gastronomia e Culinária Regional</p>
-            <hr />
-            <a href="https://material.revistadegusta.com/baixar-revista-edicao-degusta-inverno-2019" className="btn btn-outline-light mr-3">Baixar o PDF</a>
-            <a href="https://www.yumpu.com/pt/document/view/62761663/revista-degusta-gastronomia-e-culinaria-regional" className="btn btn-outline-light">Ler online</a>
-
-          </div>
-          <div className="col-sm-3 p-3">
-            <div class="shadow-sm p-3 bg-gradient-light rounded">
-              <p>siga a gente</p>
-              <hr />
-              <p><a href="https://www.instagram.com/revistadegusta/">instagram</a></p>
-              <p><a href="https://www.youtube.com/channel/UCcRxoPEtYdUO5LQmZj7wPow">youtube</a></p>
-              <p>facebook</p>
-              <p>twitter</p>
+          <div className="card bg-gradient-dark">
+            <img src={cover_winter_2019} className="card-img" alt="capa da primeira edição da revista degusta - inverno de 2019" />
+            <div className="card-body">
+              <h5 className="card-title">Inverno de 2019</h5>
+              <p className="card-text">Gastronomia e Culinária Regional: This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="https://material.revistadegusta.com/baixar-revista-edicao-degusta-inverno-2019" className="btn btn-light mr-3">Baixar o PDF</a>
+              <a href="https://www.yumpu.com/pt/document/view/62761663/revista-degusta-gastronomia-e-culinaria-regional" className="btn btn-outline-light">Ler online</a>
             </div>
           </div>
 
-        </div>
-        <div className="row no-gutters pt-0 pr-3 pb-3 pl-3">
-          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
-            <div class="shadow-sm p-3 mb-5 bg-gradient-dark rounded">
-              <a href="https://www.yumpu.com/user/revista.degusta">edições anteriores</a>
+          <div class="card p-3 bg-gradient-light text-dark">
+            <h5>fale conosto</h5>
+            <p><a href="mailto:contato@revistadegusta.com">contato@revistadegusta.com</a></p>
+            <p className="mb-0">praia do rosa/ibiraquera/imbituba/garopaba. santa catarina / Brasil</p>
+          </div>
+
+          <div className="card p-3 bg-gradient-light text-dark">
+            <h5 className="card-title">acompanhe nosso conteúdo</h5>
+            <ul className="list-unstyled mb-0">
+              <li className="media mb-2">
+                <img src={icon_instagram} className="align-self-center mr-2" style={{width: 1.5+'em'}} alt="facebook icon" />
+                <div className="align-self-center media-body">
+                  <a href="https://www.instagram.com/revistadegusta/">no instagram</a>
+                </div>
+              </li>
+              <li className="media mb-2">
+                <img src={icon_youtube} className="align-self-center mr-2" style={{width: 1.5+'em'}} alt="facebook icon" />
+                <div className="align-self-center media-body">
+                  <a href="https://www.youtube.com/channel/UCcRxoPEtYdUO5LQmZj7wPow">no youtube</a>
+                </div>
+              </li>
+              <li className="media mb-2">
+                <img src={icon_facebook} className="align-self-center mr-2" style={{width: 1.5+'em'}} alt="facebook icon" />
+                <div className="align-self-center media-body">
+                  no facebook
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card p-3 bg-gradient-dark">
+            <h5>assine nossa newsletter</h5>
+            <p>Receba periodicamente as últimas atualizações do nosso conteúdo.</p>
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input classID="email" type="email" className="form-control" placeholder="email@exemplo.com" />
+              </div>
+              <input type="submit" className="btn btn-primary ml-1" />
+            </form>
+          </div>
+
+
+
+          <div className="card bg-gradient-dark" >
+            <img src={cover_pascoa_2019} class="card-img-top" alt="capa da edição tira gosto do carnaval de 2019" />
+            <div className="card-body">
+              <h5 className="card-title">Tira Gosto de Páscoa</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.yumpu.com/pt/document/view/62755407/tiragosto-pascoa" className="btn btn-outline-light">Ler online</a>
             </div>
           </div>
-          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
-            <div class="shadow-sm p-3 mb-3 bg-gradient-dark rounded">
-              assine nossa newsletter
+
+          <div className="card bg-dark" >
+            <img src={cover_carnaval_2019} class="card-img-top" alt="capa da edição tira gosto do carnaval de 2019" />
+            <div className="card-body">
+              <h5 className="card-title">Tira gosto de Carnaval</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.yumpu.com/pt/document/view/62755389/tiragosto-sobreviva-ao-carnaval-na-praia-do-rosa" className="btn btn-outline-light">Ler online</a>
             </div>
           </div>
-          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
-            <div class="shadow-sm p-3 mb-3 bg-gradient-success rounded">
-              conheça nossos planos para anunciar
-            </div>
+
+          <div class="card p-3 bg-gradient-info">
+            <h5>nossos planos para anunciar</h5>
+            <p>já estamos trabalhando na edição de verão 2019/2020. aproveite e divulgue sua marca também.</p>
+            <a href="#" className="btn btn-outline-light">mais informações</a>
           </div>
-          <div className="col-sm-3 pt-0 pr-3 pb-3 pl-3">
-            <div class="shadow-sm p-3 mb-3 bg-gradient-dark rounded">
-              entre em contato
-            </div>
-          </div>
+
         </div>
 
         <div className='embed-container' data-page-width='500' data-page-height='625' classID='ypembedcontainer' >
