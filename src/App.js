@@ -62,9 +62,9 @@ function App() {
             <h5>assine nossa newsletter</h5>
             <p>Receba periodicamente as últimas atualizações do nosso conteúdo.</p>
             <form class="form-inline">
-              <div class="form-group">
+              <div class="form-group mb-0 ">
                 <label for="email" class="sr-only">Email</label>
-                <input classID="email" type="email" className="form-control" placeholder="email@exemplo.com" />
+                <input classID="email" name="email" type="email" className="form-control" placeholder="email@exemplo.com" />
               </div>
               <input type="submit" className="btn btn-primary ml-1" />
             </form>
