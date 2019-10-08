@@ -1,17 +1,11 @@
 @import '~bootstrap/scss/variables';
 
-// $text-muted: #cc00cc;
-
 $body-bg:                   #4d4d4d;
 $body-color:                #e6e6e6;
 
-// $text-muted: #cc00cc;
-
-// $link-color: theme-color($pink);
 $link-hover-color: lighten($link-color, 15%);
 
 $enable-gradients: true;
-
 
 $font-family-base: 'Open Sans', sans-serif;
 $headings-font-family: 'Paytone One', sans-serif;
