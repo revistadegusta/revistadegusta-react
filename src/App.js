@@ -16,7 +16,11 @@ function App() {
       <div className="container-init d-flex flex-column justify-content-center">
         <h1>Revista Degusta</h1>
         <hr />
-        <div class="card-columns">
+        <div className="card-columns">
+
+          <div className="card bg-gradient-dark">
+            <div classID="medium-widget"></div>
+          </div>
 
           <div className="card bg-gradient-dark">
             <img src={cover_winter_2019} className="card-img" alt="capa da primeira edição da revista degusta - inverno de 2019" />
@@ -58,11 +62,11 @@ function App() {
             </ul>
           </div>
 
-          <div class="card p-3 bg-gradient-dark">
+          <div className="card p-3 bg-gradient-dark">
             <h5>assine nossa newsletter</h5>
             <p>Receba periodicamente as últimas atualizações do nosso conteúdo.</p>
-            <form class="form-inline">
-              <div class="form-group mb-0 ">
+            <form className="form-inline">
+              <div className="form-group mb-0 ">
                 <label for="email" class="sr-only">Email</label>
                 <input classID="email" name="email" type="email" className="form-control" placeholder="email@exemplo.com" />
               </div>
