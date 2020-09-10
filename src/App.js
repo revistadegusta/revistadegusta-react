@@ -74,12 +74,10 @@ function App() {
             </form>
           </div>
 
-
-
           <div className="card bg-gradient-dark" >
             <img src={cover_pascoa_2019} class="card-img-top" alt="capa da edição tira gosto do carnaval de 2019" />
             <div className="card-body">
-              <h5 className="card-title">Tira Gosto de Páscoa</h5>
+              <h5 className="card-title">Tira Gosto de Páscoa!</h5>
               <p className="card-text">Para celebrar a Páscoa, visitamos os produtores locais, filmamos uma receita especial e preparamos um conteúdo recheado de delícias e boas dicas para comer o que há de melhor na região no feriado.</p>
               <a href="https://www.yumpu.com/pt/document/view/62755407/tiragosto-pascoa" className="btn btn-outline-light">Ler online</a>
             </div>
@@ -98,6 +96,14 @@ function App() {
             <h5>nossos planos para anunciar</h5>
             <p>já estamos trabalhando na edição de verão 2019/2020. aproveite e divulgue sua marca também.</p>
             <a href="https://material.revistadegusta.com/material-de-divulgacao-de-vendas-da-revista-degusta" className="btn btn-outline-light">mais informações</a>
+          </div>
+
+          <div class="card p-3 bg-gradient-info">
+            <div role="main" id="fdsafdsa-0b97871cbdafa3c63712"></div>
+            <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+            <script type="text/javascript">
+              new RDStationForms('fdsafdsa-0b97871cbdafa3c63712-html', 'UA-17276574-1').createForm();
+            </script>
           </div>
 
         </div>
